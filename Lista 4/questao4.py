@@ -2,7 +2,7 @@
 
 # Lembre-se que o print da resposta (do número inverso) deve estar fora da função. E a função deve receber o número informado como parâmetro.
 
-# Por exemplo: 127 -> 721.
+# Por exemplo: 127 -> 721, -21 -> 12-.
 
 def inverter_numero(numero):
     numero_inverso = str(numero)[::-1]
@@ -10,4 +10,4 @@ def inverter_numero(numero):
 
 N = int(input('Digite um valor: '))
 inverso_N = inverter_numero(N)
-print(f"Inverso: {inverso_N}")
+print("Inverso: " + str(inverso_N))

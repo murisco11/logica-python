@@ -4,14 +4,14 @@
 
 def obter_divisores(numero):
     divisores = []
-    for i in range(1, numero):
+    for i in range(1, numero + 1):
         if numero % i == 0:
             divisores.append(i)
     return divisores
 
 def verificar_primo(numero):
     divisores = obter_divisores(numero)
-    return len(divisores) < 2
+    return len(divisores) < 3
 
 N = int(input('Qual o valor de N? '))
 numeros = []
@@ -23,7 +23,7 @@ for i in range(N):
 
 for numero in numeros:
     if verificar_primo(numero):
-        print(f'O número {numero} é primo')
+        print(str(numero) + " é primo")
     else:
         divisores = obter_divisores(numero)
-        print(f'O número {numero} não é primo, os divisores são: {divisores}')
+        print(str(numero) + ' não é primo, os divisores são: ' + str(divisores))

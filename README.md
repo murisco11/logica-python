@@ -3,3 +3,5 @@
 - Essa é a lista de alguns exercícios que fiz na platafrom Trinket, relacionado à matéria Pensamento Computacional
 
 - Os desafios estão nos comentários, e embaixo é a resolução
+
+- OBS: Usei algumas coisas antigas, já que a versão que a plataforma usa é antiga

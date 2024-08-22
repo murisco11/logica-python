@@ -13,9 +13,9 @@ def funcao_par (numero):
 soma = 0
 
 for i in range (1, 5, 1):
-    numero = (int(input(f'Digite o número {i}: ')))
+    numero = (int(input('Digite o número ' + str(i) + ': ')))
     verifica_par = funcao_par(numero)
     if verifica_par == 0:
         soma += numero
 
-print(f"Soma dos números pares: {soma}")
+print("Soma dos números pares: " + str(soma))
