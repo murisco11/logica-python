@@ -35,12 +35,12 @@ def verificar_jogadores():
         bloqueios_ok += int(info_jogador[5])
         ataques_ok += int(info_jogador[6])
     
-    estatistica_saque = (saques_ok / saques * 100)
-    estatistica_bloqueios = (bloqueios_ok / bloqueios * 100)
-    estatistica_ataques = (ataques_ok / ataques * 100)
+        estatistica_saque = round((saques_ok / saques) * 100, 2)
+        estatistica_bloqueios = round((bloqueios_ok / bloqueios) * 100, 2)
+        estatistica_ataques = round((ataques_ok / ataques) * 100, 2)
     
-    print(f"Pontos de Saque: {estatistica_saque:.2f}%")
-    print(f"Pontos de Bloqueio: {estatistica_bloqueios:.2f}%")
-    print(f"Pontos de Ataque: {estatistica_ataques:.2f}%")
+    print("Pontos de Saque: " + str(estatistica_saque) + ' %')
+    print("Pontos de Bloqueio: " + str(estatistica_bloqueios) + ' %')
+    print("Pontos de Ataque: " + str(estatistica_ataques) + ' %')
             
 verificar_jogadores()
