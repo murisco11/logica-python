@@ -4,4 +4,4 @@
 
 - Os desafios estão nos comentários, e embaixo é a resolução
 
-- OBS: Usei algumas coisas antigas, já que a versão que a plataforma usa é antiga
+- OBS: Usei algumas tecnologias antigas, já que a versão que a plataforma usa é antiga
